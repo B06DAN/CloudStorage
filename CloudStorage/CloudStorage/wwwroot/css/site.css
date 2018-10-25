@@ -112,3 +112,108 @@ input[type=submit] {
     font-size: 46px;
 }
 
+.centered{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.cards {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: box-shadow .5s;
+    height: 400px;
+}
+
+
+
+/*????? DE-INTREBAT ????
+????? DE-INTREBAT ????*/
+.hover-test:hover > .cards {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .15);
+}
+
+.hover-test:hover > .button2 {
+    background-color: #c2efeb !important;
+    color: #1260fe !important;
+}
+/*????? DE-INTREBAT ????
+????? DE-INTREBAT ????*/
+
+
+
+
+
+
+.title-sales {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.prices {
+    background-color: #c2efeb;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.no-centered {
+    text-align: left;
+    font-size: 14px;
+    text-transform: none;
+    padding-left: 87px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    height: 202px;
+}
+
+.button {
+    color: white;
+    padding: 6px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 23px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+
+.button2 {
+    background-color: #fff;
+    color: #008CBA;
+    border: 2px solid #008CBA;
+}
+
+    .button2:hover {
+        background-color: #c2efeb;
+        color: #1260fe;
+    }
+
+ul li {
+    margin-bottom: 6px;
+}
+
+.float-left-a-little-bit {
+    padding-left: 46px;
+}
+
+.bg-back {
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-image: url(http://formatiinuntacraiova.ro/wp-content/uploads/2018/02/27750036_874475922726077_2320932605780629457_n.jpg);
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+}
